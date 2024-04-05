@@ -1,3 +1,4 @@
+import FeaturedSessions from './FeaturedSessions';
 import Header from './header';
 
 function App() {
@@ -5,8 +6,10 @@ function App() {
     <>
       <Header />
 
-      <div class="o-wrapper">
-        <h2>flare</h2>
+      <div className="o-wrapper">
+        <FeaturedSessions />
+
+        <br />
       </div>
     </>
   );

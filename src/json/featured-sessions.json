@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "title": "The Future of Sustainable Agriculture",
+    "link": "#",
+    "image": {
+      "src": "images/featured-sessions/standard/the-future-of-sustainable-agriculture.jpg",
+      "alt": "Sustainable Agriculture"
+    },
+    "thumb": {
+      "src": "images/featured-sessions/thumbs/the-future-of-sustainable-agriculture-thumb.jpg",
+      "alt": "Sustainable Agriculture Thumbs"
+    },
+    "time": "9am - 10.30am"
+  },
+  {
+    "id": 2,
+    "title": "Mixology Masterclass",
+    "link": "#",
+    "image": {
+      "src": "images/featured-sessions/standard/mixology-masterclass.jpg",
+      "alt": "Mixology Masterclass"
+    },
+    "thumb": {
+      "src": "images/featured-sessions/thumbs/mixology-masterclass-thumb.jpg",
+      "alt": "Mixology Masterclass Thumb"
+    },
+    "time": "11am - 12.30pm"
+  },
+  {
+    "id": 3,
+    "title": "From Farm to Fork",
+    "link": "#",
+    "image": {
+      "src": "images/featured-sessions/standard/from-farm-to-fork.jpg",
+      "alt": "From Farm to Fork"
+    },
+    "thumb": {
+      "src": "images/featured-sessions/thumbs/from-farm-to-fork-thumb.jpg",
+      "alt": "From Farm to Fork"
+    },
+    "time": "2pm - 3pm"
+  },
+  {
+    "id": 4,
+    "title": "Tasting Workshop",
+    "link": "#",
+    "image": {
+      "src": "images/featured-sessions/standard/tasting-workshop.jpg",
+      "alt": "Tasting Workshop"
+    },
+    "thumb": {
+      "src": "images/featured-sessions/thumbs/tasting-workshop-thumb.jpg",
+      "alt": "Tasting Workshop Thumb"
+    },
+    "time": "3pm - 4.30pm"
+  }
+]

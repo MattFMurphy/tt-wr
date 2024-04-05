@@ -1,7 +1,17 @@
 // Settings
+@use 'node_modules/sass-mq/mq' with ($breakpoints: (
+  mobile:         375px,
+  landscape:      480px,
+  tablet:         768px,
+  tablet-wide:    1024px,
+  desktop:        1280px,
+  wide:           1440px,
+  really-wide:    1680px,
+  huge:           1920px,
+));
+
 @import 'settings/settings.core';
 @import 'settings/settings.font';
-@import 'settings/settings.mq';
 @import 'settings/settings.colours';
 
 // Utils
@@ -14,3 +24,6 @@
 
 // Objects
 @import 'objects/objects.wrapper';
+
+// Components
+@import 'components/components.featured-sessions';

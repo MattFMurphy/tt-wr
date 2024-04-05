@@ -1,8 +1,10 @@
 a {
+  color: $colour--text;
+  text-decoration: none;
+  transition: color .2s ease-in;
+
   &:hover,
-  &:focus,
-  &:visited {
-    text-decoration: none;
+  &:focus {
     color: $colour--blue;
   }
 }
