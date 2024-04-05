@@ -2,7 +2,13 @@ import Header from './header';
 
 function App() {
   return (
-    <Header />
+    <>
+      <Header />
+
+      <div class="o-wrapper">
+        <h2>flare</h2>
+      </div>
+    </>
   );
 }
 
