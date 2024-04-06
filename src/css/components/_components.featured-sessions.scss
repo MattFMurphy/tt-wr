@@ -1,4 +1,14 @@
 .c-featured-sessions {
+  &__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__heading {
+    margin-bottom: rem(48px);
+  }
+
   &__session {
     border-top: 1px solid $colour--text;
     border-bottom: 1px solid $colour--text;
