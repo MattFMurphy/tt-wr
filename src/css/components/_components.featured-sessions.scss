@@ -24,6 +24,16 @@
       }
     }
 
+    &__image,
+    &__title,
+    &__time {
+      cursor: inherit;
+
+      & > a {
+        cursor: inherit;
+      }
+    }
+
     &__image {
       height: rem(200px);
       border-radius: rem(10px);
@@ -56,6 +66,12 @@
     }
 
     &__time {
+      margin: 0;
+
+      @include mq.mq($until: tablet) {
+        font-size: rem(18px);
+      }
+
       @include mq.mq($from: tablet) {
         justify-self: right;
       }
