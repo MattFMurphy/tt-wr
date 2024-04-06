@@ -1,26 +1,39 @@
 .c-featured-sessions {
   &__session {
-    display: grid;
     border-top: 1px solid $colour--text;
     border-bottom: 1px solid $colour--text;
+    list-style-type: none;
 
     @include mq.mq($until: tablet) {
       max-width: rem(375px);
       margin: auto;
-      padding: rem(32px) 0;
 
       &:first-child {
         border-top: none;
-        padding-top:  0;
+
+        & > .c-featured-sessions__session__wrapper {
+          padding-top:  0;
+        }
       }
     }
 
     @include mq.mq($from: tablet) {
-      grid-template-columns: 7fr 3fr;
-      padding: rem(48px) 0;
-
       &:not(:first-child) {
         border-top: none;
+      }
+    }
+
+    &__wrapper {
+      display: grid;
+      cursor: inherit;
+
+      @include mq.mq($until: tablet) {
+        padding: rem(32px) 0;
+      }
+
+      @include mq.mq($from: tablet) {
+        padding: rem(48px) 0;
+        grid-template-columns: 7fr 3fr;
       }
     }
 
