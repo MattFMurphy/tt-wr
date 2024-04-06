@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import sessions from '../../json/featured-sessions.json';
 import Session from "./elements/Session";
 
