@@ -16,7 +16,7 @@
 
     @include mq.mq($until: tablet) {
       max-width: rem(375px);
-      margin: auto;
+      margin-right: auto;
 
       &:first-child {
         border-top: none;

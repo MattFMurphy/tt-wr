@@ -21,22 +21,22 @@
 
   &__session {
     display: block;
-    border-radius: rem(10px);
     background-color: black;
+    border-radius: rem(10px);
     overflow: hidden;
 
     &__details {
-      background-color: $colour--blue;
       height: rem(98px);
       padding: rem(32px) rem(24px);
+      background-color: $colour--blue;
     }
 
     &__image {
-      height: rem(353px);
       position: relative;
       display: flex;
       align-items: center;
       justify-content: center;
+      height: rem(353px);
       overflow: hidden;
 
       & > img {
@@ -73,9 +73,9 @@
     }
 
     &__wrapper {
-      cursor: inherit;
       display: block;
       padding: rem(48px) 0;
+      cursor: inherit;
     }
 
     &__title {

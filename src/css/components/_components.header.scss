@@ -1,6 +1,7 @@
 .c-header {
   position: relative;
-  min-height: 200vh;
+  min-height: 100vh;
+  margin-bottom: rem(128px);
 
   &__title {
     padding-top: rem(270px);
@@ -8,17 +9,17 @@
 
   &__hero {
     display: inline-flex;
-    // width: rem(406px);
-    max-width: 100%;
     vertical-align: top;
     flex-wrap: nowrap;
+    max-width: 100%;
     margin-left: rem(50px);
 
     &__wrapper {
-      // width: 100%;
-      width: rem(406px);
       display: block;
-      // transition: width 1s linear;
+      width: rem(406px);
+      overflow: hidden;
+      border-radius: rem(10px);
+      transition: width 1s ease-in;
 
       & > img {
         max-width: 100%;
@@ -28,19 +29,37 @@
 
 
     &--expanded {
-      // width: 100%;
-      min-width: rem(406px);
-      margin-left: 0;
       display: flex;
       justify-content: center;
+      width: 100%;
+      min-width: rem(406px);
+      margin-top: rem(80px);
+      margin-bottom: rem(48px);
+      margin-left: 0;
+      line-height: 0;
 
       .c-header__hero__wrapper {
-        min-width: rem(406px);
+        width: 100%;
       }
+    }
+  }
 
-      &--end {
+  &__taste {
+    // Hidden and off the page at start
+    opacity: 0;
+    visibility: hidden;
+    margin-top: rem(1000px);
 
-      }
+    & > i {
+      font-weight: $weight--semibold;
+    }
+
+    // Kicks in once we've scrolled past the scroll threshold
+    &--taste-animated {
+      opacity: 1;
+      visibility: visible;
+      margin-top: 0;
+      transition: opacity 1.5s ease-in-out, margin-top 1s ease-in-out;
     }
   }
 }

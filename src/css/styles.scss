@@ -1,4 +1,6 @@
 // Settings
+
+// Media query shorthand mixin
 @use 'node_modules/sass-mq/mq' with ($breakpoints: (
   mobile:         375px,
   landscape:      480px,
