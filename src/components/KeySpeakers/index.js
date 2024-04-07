@@ -11,7 +11,7 @@ const KeySpeakers = () => {
       <h3 className="text text--large text--light c-key-speakers__heading">Key Speakers</h3>
 
       <div className="c-key-speakers__wrapper">
-        <div className="c-key-speakers__left">
+        <aside className="c-key-speakers__left">
           <a className="c-key-speakers__session" href="#">
             {session ? (
               <>
@@ -27,7 +27,7 @@ const KeySpeakers = () => {
               </>
             ) : <img src='images/key-speakers/speaker-placeholder.jpg' alt='Key speakers' />}
           </a>
-        </div>
+        </aside>
 
         <ul className="c-key-speakers__list">
           {speakers.map(speaker => <Speaker payload={speaker} key={`speaker--${speaker.index}`} setSession={setSession} />)}

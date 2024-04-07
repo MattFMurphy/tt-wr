@@ -7,7 +7,7 @@ function App() {
     <>
       <Header />
 
-      <div className="o-wrapper">
+      <main className="o-wrapper">
         <FeaturedSessions />
         <br />
         <br />
@@ -18,7 +18,7 @@ function App() {
         <br />
         <br />
         <br />
-      </div>
+      </main>
     </>
   );
 }

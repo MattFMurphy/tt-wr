@@ -26,3 +26,8 @@ $weight--medium: 500;
   font-variation-settings:
   "slnt" 0;
 }
+
+i {
+  font-weight: $weight--light;
+  font-style: italic;
+}
