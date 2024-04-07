@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "title": "Dr Emily Johnson",
+    "link": "#",
+    "thumb": {
+      "src": "images/key-speakers/thumbs/emily-johnson.jpg",
+      "alt": "Dr Emily Johnson"
+    },
+    "session": {
+      "title": "The Future of Sustainable Agriculture",
+      "image": {
+        "src": "images/featured-sessions/standard/the-future-of-sustainable-agriculture.jpg",
+        "alt": "Sustainable Agriculture"
+      }
+    }
+  },
+  {
+    "id": 2,
+    "title": "Michael Smith",
+    "link": "#",
+    "thumb": {
+      "src": "images/key-speakers/thumbs/michael-smith.jpg",
+      "alt": "Michael Smith"
+    },
+    "session": {
+      "title": "Mixology Masterclass",
+      "image": {
+        "src": "images/featured-sessions/standard/mixology-masterclass.jpg",
+        "alt": "Mixology Masterclass"
+      }
+    }
+  },
+  {
+    "id": 3,
+    "title": "Sarah Lee",
+    "link": "#",
+    "thumb": {
+      "src": "images/key-speakers/thumbs/sarah-lee.jpg",
+      "alt": "Sarah Lee"
+    },
+    "session": {
+      "title": "From Farm to Fork",
+      "image": {
+        "src": "images/featured-sessions/standard/from-farm-to-fork.jpg",
+        "alt": "From Farm to Fork"
+      }
+    }
+  },
+  {
+    "id": 4,
+    "title": "Chef Maria Rodriguez",
+    "link": "#",
+    "thumb": {
+      "src": "images/key-speakers/thumbs/chef-maria-rodriguez.jpg",
+      "alt": "Chef Maria Rodriguez"
+    },
+    "session": {
+      "title": "Tasting Workshop",
+      "image": {
+        "src": "images/featured-sessions/standard/tasting-workshop.jpg",
+        "alt": "Tasting Workshop"
+      }
+    }
+  }
+]

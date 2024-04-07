@@ -1,4 +1,5 @@
 import FeaturedSessions from './FeaturedSessions';
+import KeySpeakers from './KeySpeakers';
 import Header from './header';
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
         <br />
         <br />
 
-
+        <KeySpeakers />
 
         <br />
         <br />
