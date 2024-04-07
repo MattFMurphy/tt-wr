@@ -1,7 +1,46 @@
 .c-header {
-  height: rem(864px);
+  position: relative;
+  min-height: 200vh;
 
   &__title {
-    margin-top: rem(270px);
+    padding-top: rem(270px);
+  }
+
+  &__hero {
+    display: inline-flex;
+    // width: rem(406px);
+    max-width: 100%;
+    vertical-align: top;
+    flex-wrap: nowrap;
+    margin-left: rem(50px);
+
+    &__wrapper {
+      // width: 100%;
+      width: rem(406px);
+      display: block;
+      // transition: width 1s linear;
+
+      & > img {
+        max-width: 100%;
+        height: auto;
+      }
+    }
+
+
+    &--expanded {
+      // width: 100%;
+      min-width: rem(406px);
+      margin-left: 0;
+      display: flex;
+      justify-content: center;
+
+      .c-header__hero__wrapper {
+        min-width: rem(406px);
+      }
+
+      &--end {
+
+      }
+    }
   }
 }
