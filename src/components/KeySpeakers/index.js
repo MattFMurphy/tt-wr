@@ -9,7 +9,7 @@ const KeySpeakers = () => {
 
   return (
     <section className="c-key-speakers">
-      <h3 className="text text--large text--light c-key-speakers__heading" role="heading">Key Speakers</h3>
+      <h3 className="text text--large text--light o-section-heading" role="heading">Key Speakers</h3>
 
       <div className="c-key-speakers__wrapper">
         {/*

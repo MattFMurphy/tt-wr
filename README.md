@@ -1,6 +1,15 @@
-# Getting Started with Create React App
+# Technical Test
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Technical test for William Read; built in Create React App.
+
+Run `npm install` and `npm start` in your terminal at the project root to load it on a development server.
+
+Alternatively, use `serve` to run a production build.
+
+`npm install -g serve`
+
+
+`serve -s build`
 
 ## Available Scripts
 
@@ -13,11 +22,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
